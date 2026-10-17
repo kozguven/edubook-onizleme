@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="Edubook: kitaplarınla konuşmaya başla.">
+<title>Edubook | Kitaplarınla konuşmaya başla</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="sr-only" href="#icerik">İçeriğe geç</a>
+<header class="ust">
+  <div class="kap">
+    <a class="logo" href="index.html" aria-label="Edubook ana sayfa"><svg viewBox="0 0 40 40" aria-hidden="true"><rect x="2" y="4" width="36" height="28" rx="12" fill="#5B5BF0"/><path d="M10 32l-2 6 8-6Z" fill="#5B5BF0"/><path d="M11 13c3-1.6 6-1.6 9 .4 3-2 6-2 9-.4v10c-3-1.6-6-1.6-9 .4-3-2-6-2-9-.4Z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M20 13.4v10.4" stroke="#fff" stroke-width="2"/></svg>edubook</a>
+    <nav aria-label="Ana menü">
+      <a href="kitaplar.html">Keşfet</a>
+      <a href="kutuphanem.html">Kütüphanem</a>
+      <a href="studio.html">Publishing Studio</a>
+      <a href="index.html#kurumlar">Okullar ve kurumlar</a>
+      <a href="panel.html">Satıcı ol</a>
+    </nav>
+    <div class="ust-sag">
+      <a class="ust-sor" href="index.html#sor"><span class="nokta"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12Z"/><path d="M12 8.2l1 2.3 2.3 1-2.3 1-1 2.3-1-2.3-2.3-1 2.3-1Z"/></svg></span>Bir kitap sor</a>
+      <a class="ikon-dg gizle-m" href="kutuphanem.html" aria-label="Favoriler"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-9-9.3C2 7.4 4.3 4.5 7.4 4.5c2 0 3.5 1.1 4.6 2.7 1.1-1.6 2.6-2.7 4.6-2.7 3.1 0 5.4 2.9 4.4 6.2C19.5 15.4 12 20 12 20Z"/></svg></a>
+      <a class="ikon-dg" href="kitap.html" aria-label="Sepet, 1 ürün"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="rozet">1</span></a>
+      <a class="avatar" href="kutuphanem.html" aria-label="Hesabım: Ayşe Kaya">AK</a>
+    </div>
+  </div>
+</header>
+<main id="icerik">
+<section class="hero" id="sor">
+  <div class="kap">
+    <div class="hero-ic">
+      <h1>Kitaplarınla konuşmaya başla</h1>
+      <p>Çocuğun için sesli hikâye bul, ilk sayfaları ücretsiz oku, sonra kitaba istediğini sor. Cevap her zaman kitabın içinden gelir.</p>
+      <form class="sor-kutu" action="kitaplar.html" role="search">
+        <label class="sr-only" for="sor-giris">Edubook'a sor</label>
+        <textarea id="sor-giris" rows="1" placeholder="Defne için hayvanlarla ilgili sesli bir hikâye öner"></textarea>
+        <button class="mik" type="button" aria-label="Sesle sor"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+        <button class="gonder" type="submit" aria-label="Gönder"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+      </form>
+      <div class="cipler" aria-label="Hazır sorular">
+        <a class="cip" href="kitaplar.html"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/></svg>Uyku öncesi sesli hikâye</a>
+        <a class="cip" href="kitaplar.html"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5.5C5.5 4 9 4 12 6c3-2 6.5-2 9-.5V19c-2.5-1.5-6-1.5-9 .5-3-2-6.5-2-9-.5Z"/><path d="M12 6v13.5"/></svg>İngilizce okumaya yeni başlayan</a>
+        <a class="cip" href="kitaplar.html"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5Z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>İlkokul için ödev kitabı</a>
+        <a class="cip" href="kitaplar.html"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7Z"/></svg>Girişimcilik üzerine kısa rehber</a>
+      </div>
+    </div>
+    <div class="hero-cevap">
+      <div class="konusma">
+        <div class="satir ben"><div class="balon"><span class="balon-ad">Ayşe</span>Defne için hayvanlarla ilgili sesli bir hikâye öner</div></div>
+        <div class="satir yz"><span class="yz-av"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7Z"/></svg></span><div class="balon" style="max-width:100%;flex:1">
+          <span class="balon-ad">Edubook</span>
+          <p>Defne 7 yaşında ve hayvanları seviyor. Anlatıcı sesi ve arka plan müziği olan üç kitap buldum; üçünün de ilk 3 sayfası ücretsiz.</p>
+          <div class="oneri-sira">
+            <div class="oneri">
+  <a href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div style="min-width:0">
+    <a class="ad" href="kitap.html">Vahşi Yaşam Parkında Bir Gün</a>
+    <div class="alt"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><span class="etiket">79 ₺</span></div>
+    <p style="font-size:.88rem;color:var(--soluk);margin-bottom:8px">Emma ile zebraları, zürafaları ve su aygırlarını tanıyor.</p>
+    <div class="eylem"><a class="mini-dg" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg>Önizle</a><a class="mini-dg ac" href="kitap.html">İncele</a></div>
+  </div>
+</div>
+            <div class="oneri">
+  <a href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/aslan-ve-fare.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div style="min-width:0">
+    <a class="ad" href="kitap.html">Aslan Ve Fare</a>
+    <div class="alt"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><span class="etiket">79 ₺</span></div>
+    <p style="font-size:.88rem;color:var(--soluk);margin-bottom:8px">Küçük bir farenin koca aslana yardımı. Kısa ve uyku öncesine uygun.</p>
+    <div class="eylem"><a class="mini-dg" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg>Önizle</a><a class="mini-dg ac" href="kitap.html">İncele</a></div>
+  </div>
+</div>
+            <div class="oneri">
+  <a href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/bremen-mizikacilari.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div style="min-width:0">
+    <a class="ad" href="kitap.html">Bremen Mızıkacıları</a>
+    <div class="alt"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><span class="etiket">79 ₺</span></div>
+    <p style="font-size:.88rem;color:var(--soluk);margin-bottom:8px">Dört hayvan arkadaşın yolculuğu, bol müzikli anlatım.</p>
+    <div class="eylem"><a class="mini-dg" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg>Önizle</a><a class="mini-dg ac" href="kitap.html">İncele</a></div>
+  </div>
+</div>
+          </div>
+          <div class="cipler" style="margin-top:14px">
+            <a class="cip" href="kitaplar.html">Daha kısa olanlar</a>
+            <a class="cip" href="kitaplar.html">İngilizce olsun</a>
+            <a class="cip" href="kitaplar.html">Animasyonlu olanlar</a>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bolum">
+  <div class="kap">
+    <div class="bolum-bas">
+      <h2>Bir kitap, üç farklı deneyim</h2>
+      <p>Edubook'ta kitap yalnızca okunmaz. Dinlenir, izlenir ve soru sorulduğunda cevap verir.</p>
+    </div>
+    <div class="uc">
+      <div class="kart">
+        <div class="ornek-alan">
+          <div class="satir ben"><div class="balon">Zebraların çizgileri neden farklı?</div></div>
+          <div class="satir yz"><span class="yz-av"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7Z"/></svg></span><div class="balon"><span class="balon-ad">Edubook</span>Her zebranın deseni parmak izi gibi kendine özgüdür.<br><a class="kaynak" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5.5C5.5 4 9 4 12 6c3-2 6.5-2 9-.5V19c-2.5-1.5-6-1.5-9 .5-3-2-6.5-2-9-.5Z"/><path d="M12 6v13.5"/></svg>Sayfa 6</a></div></div>
+        </div>
+        <h3>Kitapla konuş</h3>
+        <p>Okurken takıldığın yeri sor, sayfayı özetlet, kendini sınav sorularıyla dene. Cevap kaynak sayfasıyla gelir.</p>
+      </div>
+      <div class="kart">
+        <div class="ornek-alan foto-alan">
+          <img src="../assets/img/hero-cocuk.jpg" alt="Kulaklıkla tabletten sesli hikâye dinleyen çocuk" loading="lazy" onerror="this.style.visibility='hidden'">
+          <div class="mini-oynatici"><span class="oy"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></span><span>Anlatıcı ve müzik</span><span class="cizgi-bar"><i style="width:38%"></i></span></div>
+        </div>
+        <h3>Dinle ve izle</h3>
+        <p>Çocuk kitapları anlatıcı sesi, arka plan müziği ve animasyonla gelir. Start'a basmak yeter.</p>
+      </div>
+      <div class="kart">
+        <div class="ornek-alan"><div class="kapak-yigin"><img src="../assets/img/kapak/ciftlikte-bir-gun.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/kasabadan-sesler.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div></div>
+        <h3>Önce ücretsiz önizle</h3>
+        <p>Her kitabın ilk sayfaları açık. Beğenirsen satın al, kitap anında kütüphanene düşsün.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bolum" style="padding-top:0">
+  <div class="kap">
+    <div class="bolum-bas">
+      <h2>Yaşa göre gez</h2>
+      <p>Çocuk ve yetişkin rafları ayrı. Önce yaşı seç, sonra konuyu.</p>
+    </div>
+    <div class="yaslar">
+      <a class="yas" href="kitaplar.html"><div class="kapak-yigin"><img src="../assets/img/kapak/aslan-ve-fare.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/hopla-zipla-kos.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/kirmizi-baslikli-kiz-2.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div><b>4-6 yaş</b><span>Okul öncesi sesli hikâyeler ve masallar</span></a>
+      <a class="yas" href="kitaplar.html"><div class="kapak-yigin"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/ne-siklikla-kosarsin.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div><b>7-10 yaş</b><span>İlkokul hikâyeleri, ilk İngilizce kitaplar</span></a>
+      <a class="yas" href="kitaplar.html"><div class="kapak-yigin"><img src="../assets/img/kapak/sherlock-holmes-2.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/the-coral-island.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/riley-the-late-rabbit.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div><b>11-17 yaş</b><span>İngilizce okuma, klasikler, sınav hazırlık</span></a>
+      <a class="yas" href="kitaplar.html"><div class="kapak-yigin"><img src="../assets/img/kapak/girisimcilik-ve-start-up-kulturu.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/populer-bilim-ve-evrenin-gizemleri.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><img src="../assets/img/kapak/etkili-iletisim-ve-ikna-sanati-kapsamli-rehberi.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div><b>Yetişkin</b><span>Kişisel gelişim, iş ve popüler bilim</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="bolum" style="padding-top:0">
+  <div class="kap">
+    <div class="raf">
+      <div class="raf-bas"><div><h2>Çocuklar için sesli hikâyeler</h2><p style="color:var(--soluk);margin-top:8px">Türkçe, anlatıcılı ve müzikli. Her biri 79 ₺.</p></div><a class="link-dg" href="kitaplar.html">Tümünü gör</a></div>
+      <div class="izgara kaydir"><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a><a class="kk-oynat" href="okuyucu.html" aria-label="Vahşi Yaşam Parkında Bir Gün: ücretsiz önizle"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Vahşi Yaşam Parkında Bir Gün</a>
+    <div class="kk-bilgi"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><b>79 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/kasabadan-sesler.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a><a class="kk-oynat" href="okuyucu.html" aria-label="Kasabadan Sesler: ücretsiz önizle"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Kasabadan Sesler</a>
+    <div class="kk-bilgi"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><b>79 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/ne-siklikla-kosarsin.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a><a class="kk-oynat" href="okuyucu.html" aria-label="Ne Sıklıkla Koşarsın?: ücretsiz önizle"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Ne Sıklıkla Koşarsın?</a>
+    <div class="kk-bilgi"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><b>79 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/daha-guclu-mu-daha-zeki-mi.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a><a class="kk-oynat" href="okuyucu.html" aria-label="Daha Güçlü Mü Daha Zeki Mi?: ücretsiz önizle"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Daha Güçlü Mü Daha Zeki Mi?</a>
+    <div class="kk-bilgi"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><b>79 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/yagmurlu-bir-gun-rutini.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a><a class="kk-oynat" href="okuyucu.html" aria-label="Yağmurlu Bir Gün Rutini: ücretsiz önizle"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Yağmurlu Bir Gün Rutini</a>
+    <div class="kk-bilgi"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><b>79 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a><a class="kk-oynat" href="okuyucu.html" aria-label="Milo'nun Hobileri: ücretsiz önizle"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Milo'nun Hobileri</a>
+    <div class="kk-bilgi"><span class="etiket ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h2M7 8v8M11 5v14M15 8v8M19 10v4M21 12h0"/></svg>Sesli</span><b>79 ₺</b></div>
+  </div>
+</article></div>
+    </div>
+    <div class="raf">
+      <div class="raf-bas"><div><h2>İngilizce okuma</h2><p style="color:var(--soluk);margin-top:6px">Seviyeye göre kısa okuma kitapları. Her biri 49 ₺.</p></div><a class="link-dg" href="kitaplar.html">Tümünü gör</a></div>
+      <div class="izgara kaydir"><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/sherlock-holmes-2.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Sherlock Holmes</a>
+    <div class="kk-bilgi"><span>İngilizce</span><b>49 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/little-women-1.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Little Women</a>
+    <div class="kk-bilgi"><span>İngilizce</span><b>49 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/the-coral-island.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">The Coral Island</a>
+    <div class="kk-bilgi"><span>İngilizce</span><b>49 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/riley-the-late-rabbit.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Riley the Late Rabbit</a>
+    <div class="kk-bilgi"><span>İngilizce, 11+</span><b>49 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/adams-safari-notes.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">Adam’s Safari Notes</a>
+    <div class="kk-bilgi"><span>İngilizce</span><b>49 ₺</b></div>
+  </div>
+</article><article class="kk">
+  <div class="kk-ust"><a class="kk-kapak" href="kitap.html" tabindex="-1" aria-hidden="true"><img src="../assets/img/kapak/the-mystery-footprint.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a></div>
+  <div class="kk-alt">
+    <a class="kk-ad" href="kitap.html">The Mystery Footprint</a>
+    <div class="kk-bilgi"><span>İngilizce</span><b>49 ₺</b></div>
+  </div>
+</article></div>
+    </div>
+    <div class="yetiskin-serit">
+      <div class="foto"><img src="../assets/img/yetiskin-okur.jpg" alt="Kafede telefonda e-kitap okuyan yetişkin" loading="lazy" onerror="this.style.visibility='hidden'"></div>
+      <div class="ic">
+        <h3 style="font-size:1.6rem">Yetişkin okur için rehberler</h3>
+        <p style="color:var(--soluk)">Popüler bilimden girişimciliğe kapsamlı rehberler, 99 ₺. Uzun bölümleri yapay zekâ ile özetle, notlarını sohbet olarak sakla.</p>
+        <div class="konusma">
+          <div class="satir ben"><div class="balon">Bu bölümü 5 maddede özetle</div></div>
+          <div class="satir yz"><span class="yz-av"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7Z"/></svg></span><div class="balon"><span class="balon-ad">Edubook</span>Girişimcilik ve Start-up Kültürü, 3. bölüm: fikir doğrulama, yalın girişim, müşteri görüşmesi, ilk ürün, ölçme. <a class="kaynak" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5.5C5.5 4 9 4 12 6c3-2 6.5-2 9-.5V19c-2.5-1.5-6-1.5-9 .5-3-2-6.5-2-9-.5Z"/><path d="M12 6v13.5"/></svg>Sayfa 41-58</a></div></div>
+        </div>
+        <div class="cipler"><a class="cip" href="kitap.html">Popüler Bilim ve Evrenin Gizemleri</a><a class="cip" href="kitap.html">Girişimcilik ve Start-up Kültürü</a><a class="cip" href="kitap.html">Etkili İletişim ve İkna Sanatı Kapsamlı Rehberi</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bolum" style="padding-top:0">
+  <div class="kap adimlar">
+    <div class="foto" style="box-shadow:var(--golge)"><img src="../assets/img/hero-aile.jpg" alt="Kanepede tabletten birlikte kitap okuyan anne ve kızı" loading="lazy" onerror="this.style.visibility='hidden'"></div>
+    <div>
+      <div class="bolum-bas" style="margin-bottom:24px"><h2>Nasıl çalışır?</h2><p>Hesap açmak bir dakika sürer. Kitaplar telefonda, tablette ve bilgisayarda aynı yerden açılır.</p></div>
+      <div class="adim-liste">
+        <div class="skart"><span class="adim-no">1</span><div class="govde"><h3>Önizle</h3><p style="color:var(--soluk)">İlk sayfaları ücretsiz oku, sesli kitaplarda anlatıcıyı dinle.</p></div></div>
+        <div class="skart"><span class="adim-no">2</span><div class="govde"><h3>Satın al</h3><p style="color:var(--soluk)">Tek seferlik ödeme. Kitap anında Kütüphanem'e eklenir, güvenli okuyucuda açılır.</p></div></div>
+        <div class="skart"><span class="adim-no">3</span><div class="govde"><h3>Sor</h3><p style="color:var(--soluk)">Okurken ortadaki Sor düğmesine dokun: özet, kelime anlamı, 3 soruluk mini sınav.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gece-bolum">
+  <div class="kap">
+    <div class="bolum-bas"><h2>Cevap kitabın içinden gelir</h2><p>Edubook yapay zekâsı yalnızca açık olan kitaba dayanır. Her cevabın altında hangi sayfadan geldiği yazar; çocuk kitabın dışına çıkmaz.</p></div>
+    <div class="okuma-demo">
+      <div class="sahne">
+        <div class="sayfa"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="Vahşi Yaşam Parkında Bir Gün, sayfa 6" loading="lazy" onerror="this.style.visibility='hidden'"></div>
+        <span class="sayfa-no">Vahşi Yaşam Parkında Bir Gün, sayfa 6 / 16</span>
+        <div class="oynatici">
+          <a class="basla" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5Z"/></svg>Start</a>
+          <span class="cizgi-bar"><i style="width:37%"></i></span>
+          <span class="sure">00:42 / 01:55</span>
+          <button class="kontrol" type="button" aria-label="Ses"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9Z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg></button>
+        </div>
+      </div>
+      <div class="panel-sohbet">
+        <div class="bas"><span class="yz-av"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7Z"/></svg></span><div><b>Kitaba sor</b><span>Vahşi Yaşam Parkında Bir Gün</span></div></div>
+        <div class="konusma">
+          <div class="satir ben"><div class="balon"><span class="balon-ad">Defne</span>Zebraların çizgileri neden farklı?</div></div>
+          <div class="satir yz"><span class="yz-av"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7Z"/></svg></span><div class="balon"><span class="balon-ad">Edubook</span><p>Kitabın 6. sayfasında Emma’nın babası anlatıyor: her zebranın çizgi deseni parmak izi gibi kendine özgüdür. İki zebranın deseni hiçbir zaman aynı olmaz.</p><a class="kaynak" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5.5C5.5 4 9 4 12 6c3-2 6.5-2 9-.5V19c-2.5-1.5-6-1.5-9 .5-3-2-6.5-2-9-.5Z"/><path d="M12 6v13.5"/></svg>Sayfa 6</a></div></div>
+        </div>
+        <div class="cipler">
+          <a class="cip" href="okuyucu.html">Bu sayfayı özetle</a>
+          <a class="cip" href="okuyucu.html">Bana 3 soru sor</a>
+          <a class="cip" href="okuyucu.html">Yeni kelimeleri açıkla</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bolum" id="qr">
+  <div class="kap iki">
+    <div>
+      <div class="bolum-bas" style="margin-bottom:22px"><h2>Basılı kitaptaki QR'ı okut</h2><p>Yayınevlerinin basılı materyallerindeki QR kodu telefonla okut; bağlı dijital kitapların önizlemesi sırayla açılsın.</p></div>
+      <div class="skart">
+        <span class="yz-av"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></svg></span>
+        <div class="govde">
+          <div class="ust-bilgi"><b>QR okutuldu</b><span>okuma seti, 3 kitap</span></div>
+          <p>Bu kodda 3 kitap var. İlki açıldı, diğerleri sırada:</p>
+          <ol class="qr-liste">
+            <li class="acik"><span class="sira">1</span><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span>Vahşi Yaşam Parkında Bir Gün</span><span class="durum">Açık</span></li>
+            <li><span class="sira">2</span><img src="../assets/img/kapak/ciftlikte-bir-gun.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span>Çiftlikte Bir Gün</span><span class="durum">Sırada</span></li>
+            <li><span class="sira">3</span><img src="../assets/img/kapak/kasabadan-sesler.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span>Kasabadan Sesler</span><span class="durum">Sırada</span></li>
+          </ol>
+          <div class="dgler"><a class="dg dg-ana" href="okuyucu.html"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></svg>QR okut</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="foto" style="box-shadow:var(--golge)"><img src="../assets/img/qr-kitap.jpg" alt="Basılı kitaptaki QR kod telefonla okutuluyor" loading="lazy" onerror="this.style.visibility='hidden'"></div>
+  </div>
+</section>
+
+<section class="bolum" style="padding-top:0">
+  <div class="kap">
+    <div class="raf-bas"><div class="bolum-bas" style="margin:0"><h2>Publishing Studio</h2><p>Kitabını yayına hazırlamak için kapak, editörlük ve seslendirme. Hizmetleri Stüdyo Edit veriyor.</p></div><a class="link-dg" href="studio.html">Studio'ya git</a></div>
+    <div class="hizmetler">
+      <a class="hizmet" href="studio.html" style="text-decoration:none"><span class="ik"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 1.8-.9 1.4-2-.5-1.3.4-2.5 1.8-2.5H18a3 3 0 0 0 3-3C21 7.6 17 3 12 3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7" r="1"/></svg></span><h3>Premium Kapak Tasarımı</h3><p>5 günde teslim, 3 revizyon hakkı.</p><span class="fiyat">4.500 ₺</span></a>
+      <a class="hizmet" href="studio.html" style="text-decoration:none"><span class="ik"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20l1-4L16 5l3 3L8 19Z"/><path d="M14 7l3 3"/></svg></span><h3>Editörlük ve Yayın Hazırlığı</h3><p>Dil, akış ve dizgi kontrolü, 5 gün.</p><span class="fiyat">3.600 ₺</span></a>
+      <a class="hizmet" href="studio.html" style="text-decoration:none"><span class="ik"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><h3>Profesyonel Seslendirme</h3><p>Sayfa başı fiyat, çocuk ve yetişkin sesleri.</p><span class="fiyat"><small>başlangıç </small>6.000 ₺</span></a>
+      <a class="hizmet" href="studio.html" style="text-decoration:none"><span class="ik"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5Z"/></svg></span><h3>Çocuk Kitabı Animasyonu</h3><p>Sayfalara hareket, ses ve müzik eklenir.</p><span class="fiyat"><small>teklif ile</small></span></a>
+    </div>
+  </div>
+</section>
+
+<section class="bolum" id="kurumlar" style="padding-top:0">
+  <div class="kap iki">
+    <div class="foto" style="box-shadow:var(--golge)"><img src="../assets/img/ogretmen-sinif.jpg" alt="Sınıfta tabletlerle okuma etkinliği yapan öğretmen" loading="lazy" onerror="this.style.visibility='hidden'"></div>
+    <div>
+      <div class="bolum-bas" style="margin-bottom:22px"><h2>Okullar ve kurumlar için</h2><p>Öğretmen sınıfına kitap ve ödev atar, öğrencinin ilerlemesini görür. Bayiler toplu lisans alır.</p></div>
+      <div class="skart">
+        <span class="avatar" style="background:var(--mor-acik);color:var(--mor-koyu)">MÖ</span>
+        <div class="govde">
+          <div class="ust-bilgi"><b>Murat Öztürk</b><span>Bahçeşehir Koleji, 2-B sınıfı</span></div>
+          <p>Aslan ve Fare'yi cuma gününe kadar oku, sonunda yapay zekânın soracağı 3 soruyu cevapla.</p>
+          <div class="dgler"><span class="etiket yz"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Teslim: 24 Ekim</span><span class="etiket yesil"><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>18 / 24 öğrenci başladı</span></div>
+        </div>
+      </div>
+      <div class="satin-al"><a class="dg dg-ana" href="kutuphanem.html">Kurum hesabı iste</a><a class="dg dg-ikinci" href="kutuphanem.html">Bayi lisansı</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="alt-bilgi">
+  <div class="kap">
+    <div class="alt-izgara">
+      <div>
+        <a class="logo" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><rect x="2" y="4" width="36" height="28" rx="12" fill="#5B5BF0"/><path d="M10 32l-2 6 8-6Z" fill="#5B5BF0"/><path d="M11 13c3-1.6 6-1.6 9 .4 3-2 6-2 9-.4v10c-3-1.6-6-1.6-9 .4-3-2-6-2-9-.4Z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M20 13.4v10.4" stroke="#fff" stroke-width="2"/></svg>edubook</a>
+        <p style="margin:14px 0 18px;max-width:320px">Kitaplarınla konuşmaya başla. Sesli ve animasyonlu çocuk kitapları, ücretsiz önizleme ve kitabın içinden cevap veren yapay zekâ.</p>
+        <address>Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.<br>Atakent Mah. Mithatpaşa Cad. Çağla Plaza No:116/18<br>Ümraniye/İstanbul</address>
+      </div>
+      <div>
+        <h4>Keşfet</h4>
+        <ul>
+          <li><a href="kitaplar.html">Tüm kitaplar</a></li>
+          <li><a href="kitaplar.html">Sesli çocuk kitapları</a></li>
+          <li><a href="kitaplar.html">İngilizce okuma</a></li>
+          <li><a href="kitaplar.html">Kişisel gelişim ve iş</a></li>
+          <li><a href="index.html#qr">QR ile kitap aç</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Yayıncılar ve kurumlar</h4>
+        <ul>
+          <li><a href="panel.html">Satıcı paneli</a></li>
+          <li><a href="satici.html">Satıcı vitrini</a></li>
+          <li><a href="studio.html">Publishing Studio</a></li>
+          <li><a href="index.html#kurumlar">Okullar için</a></li>
+          <li><a href="index.html#kurumlar">Bayi lisansı</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Yasal</h4>
+        <ul><li><a href="#">Kullanım Koşulları</a></li><li><a href="#">Mesafeli Satış Sözleşmesi</a></li><li><a href="#">Ön Bilgilendirme Formu</a></li><li><a href="#">Cayma Hakkı İstisnası</a></li><li><a href="#">Teslimat ve İade</a></li><li><a href="#">Gizlilik Politikası</a></li><li><a href="#">KVKK Aydınlatma Metni</a></li><li><a href="#">SSS</a></li><li><a href="#">İletişim</a></li></ul>
+      </div>
+    </div>
+    <div class="alt-son">
+      <span>© 2026 Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.</span>
+      <span class="webizmo">Ön tasarım · Webizmo</span>
+    </div>
+  </div>
+</footer>
+<nav class="sekme" aria-label="Uygulama sekmeleri">
+  <a href="kitaplar.html"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5Z"/></svg><span>Keşfet</span></a>
+  <a href="kutuphanem.html"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h4v16H4z"/><path d="M10 4h4v16h-4z"/><path d="M16.5 4.8l3.7-1 3 15.4-3.7 1Z" transform="translate(-2 .5)"/></svg><span>Kütüphanem</span></a>
+  <a class="sor-dg" href="#sor"><span class="d"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12Z"/><path d="M12 8.2l1 2.3 2.3 1-2.3 1-1 2.3-1-2.3-2.3-1 2.3-1Z"/></svg></span><span>Sor</span></a>
+  <a href="index.html#qr"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></svg><span>QR</span></a>
+  <a href="kutuphanem.html#hesap"><svg class="ikon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>Hesabım</span></a>
+</nav>
+<details class="ekranlar">
+  <summary><svg class="ikon k" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg>Ekranlar</summary>
+  <ul><li><a href="index.html" aria-current=page>Ana sayfa</a></li><li><a href="kitaplar.html">Kitaplar</a></li><li><a href="kitap.html">Kitap detayı</a></li><li><a href="okuyucu.html">Okuyucu</a></li><li><a href="kutuphanem.html">Kütüphanem</a></li><li><a href="satici.html">Satıcı vitrini</a></li><li><a href="studio.html">Publishing Studio</a></li><li><a href="panel.html">Satıcı paneli</a></li><li><a href="mobil.html">Mobil uygulama</a></li><li class="ayrac"><a href="../index.html">Tüm seçenekler</a></li></ul>
+</details>
+</body>
+</html>

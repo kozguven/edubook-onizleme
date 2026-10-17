@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Satıcı paneli — Edubook</title>
+<meta name="description" content="Satış özeti, kitaplarım, QR kodları ve yeni kitap yükleme.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,SOFT,wght@9..144,0..100,500;9..144,0..100,600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="logo" href="index.html" aria-label="Edubook ana sayfa"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+    <nav class="main-nav" aria-label="Ana menü"><a href="kitaplar.html">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a></nav>
+    <div class="hdr-actions">
+      <a class="icon-btn" href="kitaplar.html" aria-label="Kitap ara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a class="btn btn-ghost btn-sm hide-sm" href="kutuphanem.html">Kütüphanem</a>
+      <a class="btn btn-primary btn-sm" href="mobil.html">Giriş yap</a>
+      <details class="m-menu"><summary class="icon-btn" aria-label="Menü"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+        <nav aria-label="Mobil menü"><a href="kitaplar.html">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a><a href="kutuphanem.html">Kütüphanem</a></nav>
+      </details>
+    </div>
+  </div>
+</header>
+<main id="ana">
+<div class="wrap dash">
+  <nav class="side-nav" aria-label="Satıcı paneli">
+    <a href="panel.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Özet</a>
+    <a href="#kitaplarim"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 8.5 4 12 6c3.5-2 6.5-2 9-.5V19c-2.5-1.5-5.5-1.5-9 .5-3.5-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg>Kitaplarım</a>
+    <a href="#qr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M20 20h-3M17 20v.01M14 20v.01"/></svg>QR kodları</a>
+    <a href="#yukle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>Yeni kitap yükle</a>
+    <a href="studio.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4.5l5 5L10 19l-5 1 1-5z"/><path d="M12.5 6.5l5 5"/></svg>Studio talepleri<span class="count">1</span></a>
+    <a href="satici.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Vitrinim</a>
+  </nav>
+
+  <div>
+    <div class="card-head" style="margin-bottom:24px">
+      <div><h1 style="font-size:clamp(32px,3.6vw,46px);margin:0 0 .2em">Satıcı paneli</h1><p class="muted" style="margin:0">Edubook Pazaryeri, son 30 gün</p></div>
+      <a class="btn btn-primary" href="#yukle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>Yeni kitap yükle</a>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><span>Satış</span><b>18.420 ₺</b><small>Geçen aya göre %12 fazla</small></div>
+      <div class="kpi"><span>Satılan kitap</span><b>214</b><small>Çoğu 79 ₺'lik hikâyeler</small></div>
+      <div class="kpi"><span>Önizleme açılışı</span><b>3.880</b><small>%5,5 satışa döndü</small></div>
+      <div class="kpi"><span>Kitaba sorulan soru</span><b>1.267</b><small>En çok: Vahşi Yaşam Parkı</small></div>
+    </div>
+
+    <section class="card">
+      <div class="card-head"><h2>Haftalık satış</h2><span class="muted small">Adet</span></div>
+      <div class="bars" aria-hidden="true"><div style="height:42%"></div><div style="height:55%"></div><div style="height:48%"></div><div style="height:62%"></div><div style="height:58%"></div><div style="height:74%"></div><div class="hi" style="height:88%"></div><div style="height:66%"></div></div>
+      <div class="bars-x"><span>1. hf</span><span>2. hf</span><span>3. hf</span><span>4. hf</span><span>5. hf</span><span>6. hf</span><span>7. hf</span><span>8. hf</span></div>
+    </section>
+
+    <section class="card" id="kitaplarim">
+      <div class="card-head"><h2>Kitaplarım</h2><a class="link-more" href="kitaplar.html">Tümünü gör (79)</a></div>
+      <div class="table-wrap">
+      <table class="table stack">
+        <thead><tr><th>Kitap</th><th class="num-r">Fiyat</th><th class="num-r">Satış</th><th>Yapay zekâ</th><th>Ses</th></tr></thead>
+        <tbody>
+          <tr><td class="wide"><span class="bk"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="">Vahşi Yaşam Parkında Bir Gün</span></td><td class="num-r" data-l="Fiyat">79 ₺</td><td class="num-r" data-l="Satış">46</td><td><span class="status s-ok">İndekslendi</span></td><td><span class="status s-ok">Sesli</span></td></tr>
+          <tr><td class="wide"><span class="bk"><img src="../assets/img/kapak/bremen-mizikacilari.jpg" alt="">Bremen Mızıkacıları</span></td><td class="num-r" data-l="Fiyat">79 ₺</td><td class="num-r" data-l="Satış">31</td><td><span class="status s-ok">İndekslendi</span></td><td><span class="status s-ok">Sesli</span></td></tr>
+          <tr><td class="wide"><span class="bk"><img src="../assets/img/kapak/the-coral-island.jpg" alt="">The Coral Island</span></td><td class="num-r" data-l="Fiyat">49 ₺</td><td class="num-r" data-l="Satış">18</td><td><span class="status s-ok">İndekslendi</span></td><td><span class="status s-ok">Sesli</span></td></tr>
+          <tr><td class="wide"><span class="bk"><img src="../assets/img/kapak/surdurulebilirlik-ve-yesil-yasam.jpg" alt="">Sürdürülebilirlik ve Yeşil Yaşam</span></td><td class="num-r" data-l="Fiyat">99 ₺</td><td class="num-r" data-l="Satış">4</td><td><span class="status s-wait">İşleniyor, %60</span></td><td><span class="status s-info">Ses yok</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <div class="panel-grid">
+      <section class="card" id="qr" style="margin:0">
+        <div class="card-head"><h2>QR kodları</h2><a class="btn btn-soft btn-sm" href="#qr">Yeni QR</a></div>
+        <ul class="list">
+          <li><svg class="qr-box" viewBox="0 0 21 21" aria-hidden="true"><path fill="#1C1F1E" d="M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zm1 1v5h5V1zm1 1h3v3h-3zM0 14h7v7H0zm1 1v5h5v-5zm1 1h3v3H2zM9 0h2v2H9zM9 3h1v3H9zM11 4h2v2h-2zM8 8h3v1H8zM12 8h2v2h-2zM15 9h3v1h-3zM9 10h2v3H9zM13 12h3v2h-3zM17 12h2v3h-2zM9 15h2v2H9zM12 16h3v1h-3zM16 17h3v3h-3zM9 18h2v3H9zM12 19h2v2h-2zM0 9h2v2H0zM3 8h2v3H3zM5 12h2v1H5z"/></svg><span class="li-main"><b>Hayvanlar ünitesi, sayfa 12</b><span>3 kitaba bağlı, sırayla önizleme</span></span><span class="num-r"><b>1.204</b><span class="muted small" style="display:block">okutma</span></span></li>
+          <li><svg class="qr-box" viewBox="0 0 21 21" aria-hidden="true"><path fill="#1C1F1E" d="M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zm1 1v5h5V1zm1 1h3v3h-3zM0 14h7v7H0zm1 1v5h5v-5zm1 1h3v3H2zM8 1h3v1H8zM10 3h2v3h-2zM8 9h2v2H8zM11 8h3v1h-3zM16 9h2v2h-2zM9 12h3v2H9zM14 13h2v3h-2zM18 13h2v1h-2zM9 16h1v3H9zM11 17h3v2h-3zM16 18h4v2h-4zM1 9h3v1H1zM4 11h2v2H4z"/></svg><span class="li-main"><b>Masallar fasikülü, arka kapak</b><span>4 kitaba bağlı</span></span><span class="num-r"><b>862</b><span class="muted small" style="display:block">okutma</span></span></li>
+          <li><svg class="qr-box" viewBox="0 0 21 21" aria-hidden="true"><path fill="#1C1F1E" d="M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zm1 1v5h5V1zm1 1h3v3h-3zM0 14h7v7H0zm1 1v5h5v-5zm1 1h3v3H2zM9 1h2v3H9zM8 5h3v1H8zM12 9h3v2h-3zM8 9h2v1H8zM17 8h2v3h-2zM9 12h2v2H9zM13 14h2v2h-2zM17 15h3v1h-3zM10 17h2v3h-2zM14 18h2v2h-2zM0 8h2v1H0zM2 10h3v2H2z"/></svg><span class="li-main"><b>English Reader seti</b><span>6 kitaba bağlı</span></span><span class="num-r"><b>317</b><span class="muted small" style="display:block">okutma</span></span></li>
+        </ul>
+      </section>
+
+      <section class="card" id="yukle" style="margin:0">
+        <div class="card-head"><h2>Yeni kitap yükle</h2></div>
+        <div class="dropzone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+          <p style="margin:0 0 4px"><b>PDF ya da EPUB dosyasını buraya bırakın</b></p>
+          <p class="muted small" style="margin:0 0 14px">En fazla 200 MB</p>
+          <a class="btn btn-primary btn-sm" href="#yukle">Dosya seç</a>
+        </div>
+        <p style="margin:18px 0 0;font-weight:800">Yükledikten sonra yapay zekâ</p>
+        <ul class="ai-steps">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Özeti yazar</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Anahtar kelimeleri çıkarır</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Yaş grubunu önerir</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Kitabı sohbete hazırlar (indeksler)</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+        <p class="foot-slogan">Kitaplarınla konuşmaya başla.</p>
+        <address class="foot-address">Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.<br>Atakent Mah. Mithatpaşa Cad. Çağla Plaza No:116/18<br>Ümraniye/İstanbul</address>
+      </div>
+      <div>
+        <h3>Keşfet</h3>
+        <ul><li><a href="kitaplar.html">Kitaplar</a></li><li><a href="kitaplar.html#yas">Yaş grupları</a></li><li><a href="satici.html">Satıcılar</a></li><li><a href="studio.html">Publishing Studio</a></li><li><a href="index.html#kurumlar">Kurumlar için</a></li><li><a href="panel.html">Satıcı paneli</a></li></ul>
+      </div>
+      <div>
+        <h3>Yardım</h3>
+        <ul><li><a href="#">SSS</a></li><li><a href="#">İletişim</a></li><li><a href="#">Teslimat ve İade</a></li><li><a href="#">Cayma Hakkı İstisnası</a></li></ul>
+      </div>
+      <div>
+        <h3>Yasal</h3>
+        <ul><li><a href="#">Kullanım Koşulları</a></li><li><a href="#">Mesafeli Satış</a></li><li><a href="#">Ön Bilgilendirme</a></li><li><a href="#">Gizlilik</a></li><li><a href="#">KVKK</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.</span><span class="foot-credit">Ön tasarım · Webizmo</span></div>
+  </div>
+</footer>
+<details class="screens"><summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="4" width="13" height="10" rx="2"/><rect x="14" y="9" width="7" height="11" rx="2"/></svg>Ekranlar</summary>
+  <nav aria-label="Ekranlar"><a href="index.html">1. Ana sayfa</a><a href="kitaplar.html">2. Kitaplar</a><a href="kitap.html">3. Kitap detayı</a><a href="okuyucu.html">4. Okuyucu</a><a href="kutuphanem.html">5. Kütüphanem</a><a href="satici.html">6. Satıcı vitrini</a><a href="studio.html">7. Publishing Studio</a><a href="panel.html" aria-current="page">8. Satıcı paneli</a><a href="mobil.html">9. Mobil uygulama</a><hr><a href="../index.html">Tüm seçenekler</a></nav>
+</details>
+<script>
+document.querySelectorAll('img').forEach(function(i){function f(){i.classList.add('yok')}if(i.complete&&i.naturalWidth===0&&i.src)f();i.addEventListener('error',f)});
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kütüphanem — Edubook</title>
+<meta name="description" content="Okumaya devam et, ödevler, sohbet geçmişi ve siparişler.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,SOFT,wght@9..144,0..100,500;9..144,0..100,600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="logo" href="index.html" aria-label="Edubook ana sayfa"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+    <nav class="main-nav" aria-label="Ana menü"><a href="kitaplar.html">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a></nav>
+    <div class="hdr-actions">
+      <a class="icon-btn" href="kitaplar.html" aria-label="Kitap ara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a class="btn btn-ghost btn-sm hide-sm" href="kutuphanem.html">Kütüphanem</a>
+      <a class="btn btn-primary btn-sm" href="mobil.html">Giriş yap</a>
+      <details class="m-menu"><summary class="icon-btn" aria-label="Menü"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+        <nav aria-label="Mobil menü"><a href="kitaplar.html">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a><a href="kutuphanem.html">Kütüphanem</a></nav>
+      </details>
+    </div>
+  </div>
+</header>
+<main id="ana">
+<div class="wrap dash">
+  <nav class="side-nav" aria-label="Hesabım">
+    <a href="kutuphanem.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 8.5 4 12 6c3.5-2 6.5-2 9-.5V19c-2.5-1.5-5.5-1.5-9 .5-3.5-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg>Kütüphanem</a>
+    <a href="#odevler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 9l2 2 4-4M8 16h8"/></svg>Ödevler<span class="count">2</span></a>
+    <a href="#sohbetler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Sohbet geçmişi</a>
+    <a href="#siparisler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 13H6z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg>Siparişler</a>
+    <a href="mobil.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Profil ve çocuklar</a>
+  </nav>
+
+  <div>
+    <div class="card-head" style="margin-bottom:24px">
+      <div><h1 style="font-size:clamp(32px,3.6vw,46px);margin:0 0 .2em">Merhaba Ayşe</h1><p class="muted" style="margin:0">Defne bu hafta 3 kitap dinledi ve kitaplara 11 soru sordu.</p></div>
+      <div class="profile-switch" aria-label="Profil seç">
+        <a class="profile on" href="kutuphanem.html"><span class="avatar" style="background:var(--mustard);color:var(--ink)">D</span>Defne (7)</a>
+        <a class="profile" href="kutuphanem.html"><span class="avatar">A</span>Ayşe</a>
+      </div>
+    </div>
+
+    <section class="card">
+      <div class="card-head"><h2>Okumaya devam et</h2></div>
+      <div class="continue">
+        <a class="cont" href="okuyucu.html"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt=""><span class="cont-info"><b>Vahşi Yaşam Parkında Bir Gün</b><span>Sayfa 6 / 16</span><span class="progress-bar"><span style="width:37%"></span></span><span class="resume">Devam et</span></span></a>
+        <a class="cont" href="okuyucu.html"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt=""><span class="cont-info"><b>Milo'nun Hobileri</b><span>Sayfa 11 / 14</span><span class="progress-bar"><span style="width:78%"></span></span><span class="resume">Devam et</span></span></a>
+        <a class="cont" href="okuyucu.html"><img src="../assets/img/kapak/riley-the-late-rabbit.jpg" alt=""><span class="cont-info"><b>Riley the Late Rabbit</b><span>Sayfa 2 / 12</span><span class="progress-bar"><span style="width:16%"></span></span><span class="resume">Devam et</span></span></a>
+      </div>
+    </section>
+
+    <section class="card" id="odevler">
+      <div class="card-head"><h2>Ödevler</h2><span class="muted small">Murat Öztürk, Bahçeşehir Koleji</span></div>
+      <ul class="list">
+        <li><img src="../assets/img/kapak/ciftlikte-bir-gun.jpg" alt=""><span class="li-main"><b>Çiftlikte Bir Gün</b><span>Kitabı dinle, sonunda kitabın sorduğu 3 soruyu cevapla</span></span><span class="status s-due">Cuma'ya kadar</span><a class="btn btn-primary btn-sm hide-sm" href="okuyucu.html">Başla</a></li>
+        <li><img src="../assets/img/kapak/ne-siklikla-kosarsin.jpg" alt=""><span class="li-main"><b>Ne Sıklıkla Koşarsın?</b><span>Yeni kelimeleri kitaba sor, defterine yaz</span></span><span class="status s-wait">Sayfa 4'te</span><a class="btn btn-ghost btn-sm hide-sm" href="okuyucu.html">Devam et</a></li>
+        <li><img src="../assets/img/kapak/kirmizi-baslikli-kiz-2.jpg" alt=""><span class="li-main"><b>Kırmızı Başlıklı Kız</b><span>Sesli dinle</span></span><span class="status s-ok">Tamamlandı</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="card-head"><h2>Satın alınanlar</h2><a class="link-more" href="kitaplar.html">Yeni kitap keşfet</a></div>
+      <div class="shelf cols-5">
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="Vahşi Yaşam Parkında Bir Gün kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Vahşi Yaşam Parkında Bir Gün</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt="Milo'nun Hobileri kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Milo'nun Hobileri</a></h3>
+    <p class="book-meta"><span>3-6 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/riley-the-late-rabbit.jpg" alt="Riley the Late Rabbit kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Riley the Late Rabbit</a></h3>
+    <p class="book-meta"><span>11-14 yaş</span><span class="price">49 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/aslan-ve-fare.jpg" alt="Aslan Ve Fare kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Aslan Ve Fare</a></h3>
+    <p class="book-meta"><span>3-6 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/modern-ebeveynlik-ve-cocuk-gelisimi.jpg" alt="Modern Ebeveynlik ve Çocuk Gelişimi kapağı" width="448" height="600" loading="lazy"></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Modern Ebeveynlik ve Çocuk Gelişimi</a></h3>
+    <p class="book-meta"><span>Yetişkin</span><span class="price">99 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+</div>
+    </section>
+
+    <section class="card" id="sohbetler">
+      <div class="card-head"><h2>Sohbet geçmişi</h2></div>
+      <ul class="list">
+        <li><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt=""><span class="li-main"><b>"Zebraların çizgileri neden farklı?"</b><span>Vahşi Yaşam Parkında Bir Gün, sayfa 6, bugün</span></span><a class="btn btn-soft btn-sm" href="okuyucu.html#sohbet">Aç</a></li>
+        <li><img src="../assets/img/kapak/milonun-hobileri.jpg" alt=""><span class="li-main"><b>"Bana 3 soru sor"</b><span>Milo'nun Hobileri, sayfa 9, dün</span></span><a class="btn btn-soft btn-sm" href="okuyucu.html#sohbet">Aç</a></li>
+        <li><img src="../assets/img/kapak/riley-the-late-rabbit.jpg" alt=""><span class="li-main"><b>"What does late mean?"</b><span>Riley the Late Rabbit, sayfa 2, 14 Ekim</span></span><a class="btn btn-soft btn-sm" href="okuyucu.html#sohbet">Aç</a></li>
+      </ul>
+    </section>
+
+    <section class="card" id="siparisler">
+      <div class="card-head"><h2>Siparişler</h2></div>
+      <div class="table-wrap">
+      <table class="table stack">
+        <thead><tr><th>Sipariş</th><th>Kitap</th><th>Tarih</th><th class="num-r">Tutar</th><th>Durum</th></tr></thead>
+        <tbody>
+          <tr><td data-l="Sipariş">#EB-20418</td><td class="wide">Vahşi Yaşam Parkında Bir Gün</td><td data-l="Tarih">16 Ekim 2026</td><td class="num-r" data-l="Tutar">79 ₺</td><td><span class="status s-ok">Kütüphanede</span></td></tr>
+          <tr><td data-l="Sipariş">#EB-20377</td><td class="wide">Milo'nun Hobileri, Riley the Late Rabbit</td><td data-l="Tarih">12 Ekim 2026</td><td class="num-r" data-l="Tutar">128 ₺</td><td><span class="status s-ok">Kütüphanede</span></td></tr>
+          <tr><td data-l="Sipariş">#EB-20102</td><td class="wide">Modern Ebeveynlik ve Çocuk Gelişimi</td><td data-l="Tarih">2 Ekim 2026</td><td class="num-r" data-l="Tutar">99 ₺</td><td><span class="status s-ok">Kütüphanede</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+        <p class="foot-slogan">Kitaplarınla konuşmaya başla.</p>
+        <address class="foot-address">Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.<br>Atakent Mah. Mithatpaşa Cad. Çağla Plaza No:116/18<br>Ümraniye/İstanbul</address>
+      </div>
+      <div>
+        <h3>Keşfet</h3>
+        <ul><li><a href="kitaplar.html">Kitaplar</a></li><li><a href="kitaplar.html#yas">Yaş grupları</a></li><li><a href="satici.html">Satıcılar</a></li><li><a href="studio.html">Publishing Studio</a></li><li><a href="index.html#kurumlar">Kurumlar için</a></li><li><a href="panel.html">Satıcı paneli</a></li></ul>
+      </div>
+      <div>
+        <h3>Yardım</h3>
+        <ul><li><a href="#">SSS</a></li><li><a href="#">İletişim</a></li><li><a href="#">Teslimat ve İade</a></li><li><a href="#">Cayma Hakkı İstisnası</a></li></ul>
+      </div>
+      <div>
+        <h3>Yasal</h3>
+        <ul><li><a href="#">Kullanım Koşulları</a></li><li><a href="#">Mesafeli Satış</a></li><li><a href="#">Ön Bilgilendirme</a></li><li><a href="#">Gizlilik</a></li><li><a href="#">KVKK</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.</span><span class="foot-credit">Ön tasarım · Webizmo</span></div>
+  </div>
+</footer>
+<details class="screens"><summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="4" width="13" height="10" rx="2"/><rect x="14" y="9" width="7" height="11" rx="2"/></svg>Ekranlar</summary>
+  <nav aria-label="Ekranlar"><a href="index.html">1. Ana sayfa</a><a href="kitaplar.html">2. Kitaplar</a><a href="kitap.html">3. Kitap detayı</a><a href="okuyucu.html">4. Okuyucu</a><a href="kutuphanem.html" aria-current="page">5. Kütüphanem</a><a href="satici.html">6. Satıcı vitrini</a><a href="studio.html">7. Publishing Studio</a><a href="panel.html">8. Satıcı paneli</a><a href="mobil.html">9. Mobil uygulama</a><hr><a href="../index.html">Tüm seçenekler</a></nav>
+</details>
+<script>
+document.querySelectorAll('img').forEach(function(i){function f(){i.classList.add('yok')}if(i.complete&&i.naturalWidth===0&&i.src)f();i.addEventListener('error',f)});
+</script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Mobil uygulama — Edubook</title>
+<meta name="description" content="Edubook mobil uygulama prototipi, 8 ekran.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,SOFT,wght@9..144,0..100,500;9..144,0..100,600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="logo" href="index.html" aria-label="Edubook ana sayfa"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+    <nav class="main-nav" aria-label="Ana menü"><a href="kitaplar.html">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a></nav>
+    <div class="hdr-actions">
+      <a class="icon-btn" href="kitaplar.html" aria-label="Kitap ara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a class="btn btn-ghost btn-sm hide-sm" href="kutuphanem.html">Kütüphanem</a>
+      <a class="btn btn-primary btn-sm" href="mobil.html">Giriş yap</a>
+      <details class="m-menu"><summary class="icon-btn" aria-label="Menü"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+        <nav aria-label="Mobil menü"><a href="kitaplar.html">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a><a href="kutuphanem.html">Kütüphanem</a></nav>
+      </details>
+    </div>
+  </div>
+</header>
+<main id="ana">
+<div class="wrap">
+  <div class="mobil-intro">
+    <h1 style="font-size:clamp(32px,3.6vw,46px);margin-bottom:.2em">Edubook mobil uygulama</h1>
+    <p class="muted" style="margin:0">iPhone ve Android için 8 ekran: girişten ödemeye, QR okutmadan kitaba soru sormaya.</p>
+  </div>
+
+  <div class="phones">
+    <!-- 1 Giriş + SMS -->
+    <div class="phone-cell"><div class="phone"><div class="screen"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr" style="padding-top:28px">
+        <span class="logo" style="font-size:22px"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</span>
+        <p class="m-h" style="font-size:26px;margin-top:26px">Kitaplarınla konuşmaya başla</p>
+        <p class="muted" style="margin:0 0 16px">Telefon numaranla giriş yap, şifre gerekmez.</p>
+        <label class="small" style="font-weight:700;margin-bottom:6px">Telefon</label>
+        <div class="m-input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M11 18h2"/></svg><span>0 5•• ••• •• 47</span></div>
+        <p style="font-weight:700;margin:18px 0 0;text-align:center">SMS ile gelen kodu yaz</p>
+        <div class="otp"><span class="f">4</span><span class="f">8</span><span class="f">2</span><span></span></div>
+        <p class="muted small" style="text-align:center;margin:0 0 16px">Kodu 0:42 sonra yeniden gönder</p>
+        <a class="m-btn" href="#">Devam et</a>
+        <p class="muted" style="font-size:11px;text-align:center;margin-top:auto;padding-bottom:20px">Devam ederek Kullanım Koşulları'nı ve KVKK metnini kabul edersin.</p>
+      </div>
+    </div></div><p class="phone-cap"><b>Giriş ve SMS kodu.</b> Telefon numarası ve 4 haneli kodla, şifresiz giriş.</p></div>
+
+    <!-- 2 Ana sayfa -->
+    <div class="phone-cell"><div class="phone"><div class="screen"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr">
+        <p class="m-h" style="margin-top:8px">Merhaba Ayşe</p>
+        <div class="m-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Kitap, konu ya da yaş ara</div>
+        <div class="m-ages"><span>3-6<br>yaş</span><span>7-10<br>yaş</span><span>11-14<br>yaş</span><span>Yetiş&shy;kin</span></div>
+        <p class="m-h sm">Defne için sesli hikâyeler</p>
+        <div class="m-row">
+          <div class="m-book"><div class="c"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Vahşi Yaşam Parkında Bir Gün</p><small>79 ₺</small></div>
+          <div class="m-book"><div class="c"><img src="../assets/img/kapak/kasabadan-sesler.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Kasabadan Sesler</p><small>79 ₺</small></div>
+          <div class="m-book"><div class="c"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Milo'nun Hobileri</p><small>79 ₺</small></div>
+        </div>
+        <div class="m-card" style="margin-top:12px;display:flex;gap:10px;align-items:center"><span class="value-ic" style="flex:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg></span><span><b style="font-size:12.5px">Kitaba sor</b><br><span class="muted" style="font-size:11.5px">Defne dün 4 soru sordu</span></span></div>
+      </div>
+      <nav class="tabbar"><a class="on" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Ana sayfa</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Keşfet</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M20 20h-3M17 20v.01M14 20v.01"/></svg>QR</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 8.5 4 12 6c3.5-2 6.5-2 9-.5V19c-2.5-1.5-5.5-1.5-9 .5-3.5-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg>Kütüphane</a></nav>
+    </div></div><p class="phone-cap"><b>Ana sayfa.</b> Yaş grubuna göre raflar, çocuğa özel öneriler.</p></div>
+
+    <!-- 3 Keşfet / filtre -->
+    <div class="phone-cell"><div class="phone"><div class="screen"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr">
+        <p class="m-h" style="margin-top:8px">Keşfet</p>
+        <div class="m-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Hayvan hikâyeleri</div>
+        <div class="m-chips" style="margin:10px 0 4px"><span class="m-chip on">7-10 yaş</span><span class="m-chip on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span><span class="m-chip">Türkçe</span></div>
+        <p class="muted" style="font-size:11.5px;margin:6px 0 2px">14 kitap, önerilen sıralama</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4px 10px">
+          <div class="m-book" style="width:auto"><div class="c"><img src="../assets/img/kapak/ne-siklikla-kosarsin.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Ne Sıklıkla Koşarsın?</p><small>79 ₺</small></div>
+          <div class="m-book" style="width:auto"><div class="c"><img src="../assets/img/kapak/gorev-buzdagini-koru.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Görev Buzdağını Koru</p><small>79 ₺</small></div>
+          <div class="m-book" style="width:auto"><div class="c"><img src="../assets/img/kapak/gida-pazari-gizemi.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Gıda Pazarı Gizemi</p><small>79 ₺</small></div>
+          <div class="m-book" style="width:auto"><div class="c"><img src="../assets/img/kapak/adams-safari-notes.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Adam's Safari Notes</p><small>49 ₺</small></div>
+          <div class="m-book" style="width:auto"><div class="c"><img src="../assets/img/kapak/alexin-yeni-ev-macerasi.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Alex'in Yeni Ev Macerası</p><small>79 ₺</small></div>
+          <div class="m-book" style="width:auto"><div class="c"><img src="../assets/img/kapak/nickin-saat-maceralari.jpg" alt=""><span class="bs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></div><p>Nick'in Saat Maceraları</p><small>79 ₺</small></div>
+        </div>
+      </div>
+      <nav class="tabbar"><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Ana sayfa</a><a class="on" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Keşfet</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M20 20h-3M17 20v.01M14 20v.01"/></svg>QR</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 8.5 4 12 6c3.5-2 6.5-2 9-.5V19c-2.5-1.5-5.5-1.5-9 .5-3.5-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg>Kütüphane</a></nav>
+    </div></div><p class="phone-cap"><b>Keşfet ve filtre.</b> Yaş, sesli, dil ve fiyat tek dokunuşla.</p></div>
+
+    <!-- 4 Kitap detayı + ödeme -->
+    <div class="phone-cell"><div class="phone"><div class="screen"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr">
+        <div style="background:var(--sage);border-radius:16px;padding:14px 0 0;display:flex;justify-content:center;position:relative;margin-top:4px">
+          <img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="" style="width:118px;aspect-ratio:3/4;object-fit:cover;border-radius:2px 6px 6px 2px;box-shadow:var(--shadow-cover)">
+          <span style="position:absolute;left:0;right:0;bottom:-3px;height:4px;background:var(--green)"></span>
+        </div>
+        <p class="m-h" style="font-size:19px;margin-top:14px">Vahşi Yaşam Parkında Bir Gün</p>
+        <div class="m-chips"><span class="m-chip on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span><span class="m-chip">7-10 yaş</span><span class="m-chip">16 sayfa</span></div>
+      </div>
+      <div class="m-dim"></div>
+      <div class="m-sheet">
+        <p class="m-h sm" style="margin-top:0">Ödeme</p>
+        <div class="m-li" style="padding-top:0"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt=""><span style="flex:1"><b>Vahşi Yaşam Parkında Bir Gün</b><small>Dijital kitap</small></span><b>79 ₺</b></div>
+        <div class="m-input" style="margin:10px 0 6px;border-color:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></svg><span style="flex:1">Kayıtlı kart</span><span class="m-chip on" style="min-height:22px">Seçili</span></div>
+        <div class="m-input" style="margin-bottom:10px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></svg><span>Yeni kart ekle</span></div>
+        <p class="muted" style="font-size:10.5px;margin:0 0 10px">Ön Bilgilendirme ve Mesafeli Satış sözleşmesini okudum. Dijital içerikte cayma hakkı istisnası uygulanır.</p>
+        <a class="m-btn" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>79 ₺ öde</a>
+      </div>
+    </div></div><p class="phone-cap"><b>Kitap detayı ve ödeme.</b> Alttan açılan ödeme sayfası, yasal metinler görünür.</p></div>
+  </div>
+
+  <div class="phones">
+    <!-- 5 Okuyucu + oynatıcı -->
+    <div class="phone-cell"><div class="phone"><div class="screen" style="background:#EEF2EE"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr" style="padding:0 12px">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px"><span style="color:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></span><b style="font-size:12.5px;flex:1">Vahşi Yaşam Parkında Bir Gün</b><span class="muted" style="font-size:11px">6 / 16</span></div>
+        <div style="background:#fff;padding:6px;border-radius:4px;box-shadow:0 14px 26px -14px rgba(0,0,0,.45);position:relative">
+          <img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="" style="width:100%;aspect-ratio:3/3.4;object-fit:cover">
+          <p style="position:absolute;left:12px;right:12px;bottom:12px;margin:0;background:rgba(251,250,246,.94);border-radius:10px;padding:7px 9px;font:500 12.5px/1.4 var(--serif)">"Bak Emma, her zebranın çizgileri <mark style="background:var(--mustard-soft)">parmak izi gibi</mark> kendine özgüdür."</p>
+        </div>
+        <div style="background:#fff;border-radius:16px;margin-top:10px;padding:10px 12px">
+          <div class="m-prog"><span style="width:37%"></span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px">
+            <span style="color:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></span>
+            <span class="m-btn" style="padding:0 18px"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4.5" width="4" height="15" rx="1"/><rect x="14" y="4.5" width="4" height="15" rx="1"/></svg>Duraklat</span>
+            <span style="color:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+          </div>
+          <div style="display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--muted);font-weight:700"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg> Anlatıcı açık</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></svg> Müzik</span></div>
+        </div>
+      </div>
+      <div style="background:#fff;border-radius:18px 18px 0 0;box-shadow:0 -8px 20px -10px rgba(0,0,0,.3);padding:8px 14px 18px;display:flex;align-items:center;gap:10px;margin-top:10px"><span class="value-ic" style="background:var(--green);color:#fff;border-radius:50%;flex:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg></span><span><b style="font:600 14px var(--serif);color:var(--green-ink)">Kitaba sor</b><br><span class="muted" style="font-size:11px">Yukarı kaydır</span></span></div>
+    </div></div><p class="phone-cap"><b>Okuyucu ve oynatıcı.</b> Start ile sesli okuma, müzik ve sayfa ilerlemesi.</p></div>
+
+    <!-- 6 Yapay zekâ sohbet -->
+    <div class="phone-cell"><div class="phone"><div class="screen"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr">
+        <div class="m-li" style="padding-top:0"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt=""><span><b>Kitaba sor</b><small>Vahşi Yaşam Parkında Bir Gün</small></span></div>
+        <div style="padding-top:10px;flex:1">
+          <p class="m-msg u">Zebraların çizgileri neden farklı?</p>
+          <div class="m-msg a"><b style="color:var(--green);font-size:11.5px">Edubook</b><br>Kitabın 6. sayfasında Emma'nın babası anlatıyor: her zebranın çizgi deseni parmak izi gibi kendine özgüdür.<br><span class="page-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 8.5 4 12 6c3.5-2 6.5-2 9-.5V19c-2.5-1.5-5.5-1.5-9 .5-3.5-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg>Sayfa 6</span></div>
+          <p class="m-msg u">Bana 3 soru sor</p>
+          <div class="m-msg a"><b style="color:var(--green);font-size:11.5px">Edubook</b><br>1. Emma parka kiminle gitti?<br>2. Zebraların çizgileri neye benziyor?<br>3. İlk gördüğün büyük hayvan hangisiydi?</div>
+        </div>
+        <div class="m-chips" style="margin-bottom:8px"><span class="m-chip">Bu sayfayı özetle</span><span class="m-chip">Yeni kelimeleri açıkla</span></div>
+        <div class="m-input" style="border-radius:999px;margin-bottom:18px"><span class="muted" style="flex:1">Kitaba bir soru yaz</span><span style="color:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span></div>
+      </div>
+    </div></div><p class="phone-cap"><b>Yapay zekâ sohbet.</b> Cevaplar kitaptan, kaynak sayfa etiketiyle; sesle de sorulur.</p></div>
+
+    <!-- 7 Kütüphanem -->
+    <div class="phone-cell"><div class="phone"><div class="screen"><span class="notch"></span>
+      <div class="sbar"><span>9:41</span><i></i></div>
+      <div class="scr">
+        <p class="m-h" style="margin-top:8px">Kütüphanem</p>
+        <div class="m-chips"><span class="m-chip on">Defne (7)</span><span class="m-chip">Ayşe</span></div>
+        <p class="m-h sm">Okumaya devam et</p>
+        <div class="m-li"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt=""><span style="flex:1"><b>Vahşi Yaşam Parkında Bir Gün</b><small>Sayfa 6 / 16</small><span class="m-prog" style="display:block;margin-top:5px"><span style="width:37%"></span></span></span></div>
+        <div class="m-li"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt=""><span style="flex:1"><b>Milo'nun Hobileri</b><small>Sayfa 11 / 14</small><span class="m-prog" style="display:block;margin-top:5px"><span style="width:78%"></span></span></span></div>
+        <p class="m-h sm">Ödevler</p>
+        <div class="m-card" style="display:flex;gap:10px;align-items:center"><img src="../assets/img/kapak/ciftlikte-bir-gun.jpg" alt="" style="width:36px;height:48px;object-fit:cover;border-radius:2px 4px 4px 2px;flex:none"><span style="flex:1"><b style="font-size:12.5px">Çiftlikte Bir Gün</b><br><span class="muted" style="font-size:11px">Murat Öztürk, Bahçeşehir Koleji</span></span><span class="status s-due" style="font-size:10.5px;padding:3px 8px">Cuma</span></div>
+      </div>
+      <nav class="tabbar"><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Ana sayfa</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Keşfet</a><a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M20 20h-3M17 20v.01M14 20v.01"/></svg>QR</a><a class="on" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 8.5 4 12 6c3.5-2 6.5-2 9-.5V19c-2.5-1.5-5.5-1.5-9 .5-3.5-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg>Kütüphane</a></nav>
+    </div></div><p class="phone-cap"><b>Kütüphanem.</b> Çocuk profili, ilerleme çubukları ve öğretmenden gelen ödev.</p></div>
+
+    <!-- 8 QR okut + sıralı önizleme -->
+    <div class="phone-cell"><div class="phone"><div class="screen" style="background:#1C1F1E"><span class="notch"></span>
+      <div class="sbar" style="color:#fff"><span>9:41</span><i></i></div>
+      <div class="scr" style="padding:0 10px 10px">
+        <p style="color:#fff;font:600 18px var(--serif);margin:4px 4px 10px">QR okut</p>
+        <div class="qr-view">
+          <img src="../assets/img/qr-kitap.jpg" alt="">
+          <span class="qr-frame"></span>
+          <div class="qr-found">
+            <b style="font-size:12.5px">3 kitap bulundu, sırayla açılıyor</b>
+            <div style="display:flex;gap:14px;margin:8px 0;justify-content:center">
+              <div style="flex:none;width:44px;text-align:center"><img src="../assets/img/kapak/ciftlikte-bir-gun.jpg" alt="" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px 5px 5px 2px;outline:3px solid var(--mustard)"><small style="display:block;margin-top:4px;font-size:10px;font-weight:800">1. Şimdi</small></div>
+              <div style="flex:none;width:44px;text-align:center;opacity:.7"><img src="../assets/img/kapak/milonun-hobileri.jpg" alt="" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px 5px 5px 2px"><small style="display:block;margin-top:4px;font-size:10px">2. Sonra</small></div>
+              <div style="flex:none;width:44px;text-align:center;opacity:.7"><img src="../assets/img/kapak/kasabadan-sesler.jpg" alt="" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px 5px 5px 2px"><small style="display:block;margin-top:4px;font-size:10px">3. Sonra</small></div>
+            </div>
+            <a class="m-btn" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Önizlemeyi aç</a>
+          </div>
+        </div>
+      </div>
+    </div></div><p class="phone-cap"><b>QR okut ve sıralı önizleme.</b> Basılı materyaldeki QR, bağlı kitapları sırayla açar.</p></div>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+        <p class="foot-slogan">Kitaplarınla konuşmaya başla.</p>
+        <address class="foot-address">Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.<br>Atakent Mah. Mithatpaşa Cad. Çağla Plaza No:116/18<br>Ümraniye/İstanbul</address>
+      </div>
+      <div>
+        <h3>Keşfet</h3>
+        <ul><li><a href="kitaplar.html">Kitaplar</a></li><li><a href="kitaplar.html#yas">Yaş grupları</a></li><li><a href="satici.html">Satıcılar</a></li><li><a href="studio.html">Publishing Studio</a></li><li><a href="index.html#kurumlar">Kurumlar için</a></li><li><a href="panel.html">Satıcı paneli</a></li></ul>
+      </div>
+      <div>
+        <h3>Yardım</h3>
+        <ul><li><a href="#">SSS</a></li><li><a href="#">İletişim</a></li><li><a href="#">Teslimat ve İade</a></li><li><a href="#">Cayma Hakkı İstisnası</a></li></ul>
+      </div>
+      <div>
+        <h3>Yasal</h3>
+        <ul><li><a href="#">Kullanım Koşulları</a></li><li><a href="#">Mesafeli Satış</a></li><li><a href="#">Ön Bilgilendirme</a></li><li><a href="#">Gizlilik</a></li><li><a href="#">KVKK</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.</span><span class="foot-credit">Ön tasarım · Webizmo</span></div>
+  </div>
+</footer>
+<details class="screens"><summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="4" width="13" height="10" rx="2"/><rect x="14" y="9" width="7" height="11" rx="2"/></svg>Ekranlar</summary>
+  <nav aria-label="Ekranlar"><a href="index.html">1. Ana sayfa</a><a href="kitaplar.html">2. Kitaplar</a><a href="kitap.html">3. Kitap detayı</a><a href="okuyucu.html">4. Okuyucu</a><a href="kutuphanem.html">5. Kütüphanem</a><a href="satici.html">6. Satıcı vitrini</a><a href="studio.html">7. Publishing Studio</a><a href="panel.html">8. Satıcı paneli</a><a href="mobil.html" aria-current="page">9. Mobil uygulama</a><hr><a href="../index.html">Tüm seçenekler</a></nav>
+</details>
+<script>
+document.querySelectorAll('img').forEach(function(i){function f(){i.classList.add('yok')}if(i.complete&&i.naturalWidth===0&&i.src)f();i.addEventListener('error',f)});
+</script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kitaplar — Edubook</title>
+<meta name="description" content="Yaşa, dile ve kategoriye göre dijital kitaplar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,SOFT,wght@9..144,0..100,500;9..144,0..100,600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="logo" href="index.html" aria-label="Edubook ana sayfa"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+    <nav class="main-nav" aria-label="Ana menü"><a href="kitaplar.html" aria-current="page">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a></nav>
+    <div class="hdr-actions">
+      <a class="icon-btn" href="kitaplar.html" aria-label="Kitap ara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a class="btn btn-ghost btn-sm hide-sm" href="kutuphanem.html">Kütüphanem</a>
+      <a class="btn btn-primary btn-sm" href="mobil.html">Giriş yap</a>
+      <details class="m-menu"><summary class="icon-btn" aria-label="Menü"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+        <nav aria-label="Mobil menü"><a href="kitaplar.html" aria-current="page">Kitaplar</a><a href="kitaplar.html#yas">Yaş grupları</a><a href="studio.html">Publishing Studio</a><a href="index.html#kurumlar">Kurumlar için</a><a href="satici.html">Satıcılar</a><a href="kutuphanem.html">Kütüphanem</a></nav>
+      </details>
+    </div>
+  </div>
+</header>
+<main id="ana">
+<div class="wrap">
+  <div class="page-head">
+    <ol class="crumbs"><li><a href="index.html">Ana sayfa</a></li><li>Kitaplar</li></ol>
+    <h1>Kitaplar</h1>
+    <p class="muted">40 dijital kitap. Hepsinin ilk sayfaları ücretsiz, çocuk kitapları sesli.</p>
+    <form class="search" action="kitaplar.html" role="search" style="max-width:640px;margin-top:20px">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <label class="visually-hidden" for="q2">Kitap ara</label>
+      <input id="q2" type="search" placeholder="Kitap, konu ya da karakter ara" value="">
+      <button class="btn btn-primary btn-sm" type="submit">Ara</button>
+    </form>
+  </div>
+
+  <div class="catalog" id="yas">
+    <details class="filters">
+      <summary>Filtreler <span class="muted small">2 seçili</span></summary>
+      <div class="fgroup">
+        <h3>Yaş grubu</h3>
+        <div class="pills">
+          <button class="pill" type="button" aria-pressed="false">3-6 yaş</button>
+          <button class="pill" type="button" aria-pressed="true">7-10 yaş</button>
+          <button class="pill" type="button" aria-pressed="false">11-14 yaş</button>
+          <button class="pill" type="button" aria-pressed="false">Yetişkin</button>
+        </div>
+      </div>
+      <div class="fgroup">
+        <h3>Özellik</h3>
+        <label class="check"><input type="checkbox" checked>Sesli <small>30</small></label>
+        <label class="check"><input type="checkbox">Animasyonlu <small>19</small></label>
+        <label class="check"><input type="checkbox">Ücretsiz önizleme <small>38</small></label>
+      </div>
+      <div class="fgroup">
+        <h3>Dil</h3>
+        <label class="check"><input type="checkbox">Türkçe <small>29</small></label>
+        <label class="check"><input type="checkbox">İngilizce <small>11</small></label>
+      </div>
+      <div class="fgroup">
+        <h3>Kategori</h3>
+        <label class="check"><input type="checkbox">Okul Öncesi &amp; Çocuk</label>
+        <label class="check"><input type="checkbox">İlkokul &amp; Ortaokul</label>
+        <label class="check"><input type="checkbox">Lise &amp; Üniversite</label>
+        <label class="check"><input type="checkbox">Sınav Hazırlık</label>
+        <label class="check"><input type="checkbox">Kişisel Gelişim &amp; İş</label>
+        <label class="check"><input type="checkbox">Edebiyat &amp; Kültür</label>
+        <label class="check"><input type="checkbox">İngilizce Okuma</label>
+      </div>
+      <div class="fgroup">
+        <h3>Fiyat</h3>
+        <div class="pills"><button class="pill" type="button" aria-pressed="false">49 ₺</button><button class="pill" type="button" aria-pressed="false">79 ₺</button><button class="pill" type="button" aria-pressed="false">99 ₺</button></div>
+      </div>
+    </details>
+    <script>if(matchMedia("(min-width:961px)").matches)document.querySelector(".filters").open=true</script>
+
+    <section aria-label="Sonuçlar">
+      <div class="toolbar">
+        <div class="active-filters"><b>14 kitap</b><span class="pill on">7-10 yaş <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span><span class="pill on">Sesli <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+        <label class="visually-hidden" for="sirala">Sırala</label>
+        <select class="select" id="sirala"><option>Önerilen</option><option>En yeni</option><option>Fiyat: artan</option><option>Fiyat: azalan</option></select>
+      </div>
+      <div class="shelf cols-4">
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/vahsi-yasam-parkinda-bir-gun.jpg" alt="Vahşi Yaşam Parkında Bir Gün kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Vahşi Yaşam Parkında Bir Gün</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/kasabadan-sesler.jpg" alt="Kasabadan Sesler kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Kasabadan Sesler</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/ne-siklikla-kosarsin.jpg" alt="Ne Sıklıkla Koşarsın? kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Ne Sıklıkla Koşarsın?</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/daha-guclu-mu-daha-zeki-mi.jpg" alt="Daha Güçlü Mü Daha Zeki Mi? kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Daha Güçlü Mü Daha Zeki Mi?</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/radyo-gunesli-okuldan-gunaydin.jpg" alt="Radyo Güneşli Okuldan Günaydın kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Radyo Güneşli Okuldan Günaydın</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/kutuphaneye-kadar-beni-takip-et.jpg" alt="Kütüphaneye Kadar Beni Takip Et kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Kütüphaneye Kadar Beni Takip Et</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/tum-yaz-boyunca-yeni-kesifler.jpg" alt="Tüm Yaz Boyunca Yeni Keşifler kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Tüm Yaz Boyunca Yeni Keşifler</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/gorev-buzdagini-koru.jpg" alt="Görev Buzdağını Koru kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Görev Buzdağını Koru</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/alexin-yeni-ev-macerasi.jpg" alt="Alexin Yeni Ev Macerası kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Alexin Yeni Ev Macerası</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/nickin-saat-maceralari.jpg" alt="Nick'in Saat Maceraları kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Nick'in Saat Maceraları</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/gida-pazari-gizemi.jpg" alt="Gıda Pazarı Gizemi kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Gıda Pazarı Gizemi</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">79 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/adams-safari-notes.jpg" alt="Adam’s Safari Notes kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">Adam’s Safari Notes</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">49 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/the-mystery-footprint.jpg" alt="The Mystery Footprint kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">The Mystery Footprint</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">49 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+<article class="book">
+  <a class="book-cover" href="kitap.html"><img src="../assets/img/kapak/the-perfect-mountain-picnic.jpg" alt="The Perfect Mountain Picnic kapağı" width="448" height="600" loading="lazy"><span class="badge-sesli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>Sesli</span></a>
+  <div class="book-body">
+    <h3 class="book-title"><a href="kitap.html">The Perfect Mountain Picnic</a></h3>
+    <p class="book-meta"><span>7-10 yaş</span><span class="price">49 ₺</span></p>
+    <a class="ask-chip" href="okuyucu.html#sohbet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/><path d="M8 10h8M8 13h5"/></svg>Kitaba sor</a>
+  </div>
+</article>
+</div>
+      <nav class="pager" aria-label="Sayfalar"><a href="kitaplar.html" aria-current="page">1</a><a href="kitaplar.html">2</a><a href="kitaplar.html">Sonraki</a></nav>
+    </section>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6c3-1.6 6-1.6 9 .6 3-2.2 6-2.2 9-.6v12.4c-3-1.6-6-1.6-9 .6-3-2.2-6-2.2-9-.6z"/><path d="M12 6.6v12.8"/></svg></span>Edubook</a>
+        <p class="foot-slogan">Kitaplarınla konuşmaya başla.</p>
+        <address class="foot-address">Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.<br>Atakent Mah. Mithatpaşa Cad. Çağla Plaza No:116/18<br>Ümraniye/İstanbul</address>
+      </div>
+      <div>
+        <h3>Keşfet</h3>
+        <ul><li><a href="kitaplar.html">Kitaplar</a></li><li><a href="kitaplar.html#yas">Yaş grupları</a></li><li><a href="satici.html">Satıcılar</a></li><li><a href="studio.html">Publishing Studio</a></li><li><a href="index.html#kurumlar">Kurumlar için</a></li><li><a href="panel.html">Satıcı paneli</a></li></ul>
+      </div>
+      <div>
+        <h3>Yardım</h3>
+        <ul><li><a href="#">SSS</a></li><li><a href="#">İletişim</a></li><li><a href="#">Teslimat ve İade</a></li><li><a href="#">Cayma Hakkı İstisnası</a></li></ul>
+      </div>
+      <div>
+        <h3>Yasal</h3>
+        <ul><li><a href="#">Kullanım Koşulları</a></li><li><a href="#">Mesafeli Satış</a></li><li><a href="#">Ön Bilgilendirme</a></li><li><a href="#">Gizlilik</a></li><li><a href="#">KVKK</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Edubook Bilgi Teknolojileri ve İnovasyon A.Ş.</span><span class="foot-credit">Ön tasarım · Webizmo</span></div>
+  </div>
+</footer>
+<details class="screens"><summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="4" width="13" height="10" rx="2"/><rect x="14" y="9" width="7" height="11" rx="2"/></svg>Ekranlar</summary>
+  <nav aria-label="Ekranlar"><a href="index.html">1. Ana sayfa</a><a href="kitaplar.html" aria-current="page">2. Kitaplar</a><a href="kitap.html">3. Kitap detayı</a><a href="okuyucu.html">4. Okuyucu</a><a href="kutuphanem.html">5. Kütüphanem</a><a href="satici.html">6. Satıcı vitrini</a><a href="studio.html">7. Publishing Studio</a><a href="panel.html">8. Satıcı paneli</a><a href="mobil.html">9. Mobil uygulama</a><hr><a href="../index.html">Tüm seçenekler</a></nav>
+</details>
+<script>
+document.querySelectorAll('img').forEach(function(i){function f(){i.classList.add('yok')}if(i.complete&&i.naturalWidth===0&&i.src)f();i.addEventListener('error',f)});
+</script>
+</body>
+</html>
